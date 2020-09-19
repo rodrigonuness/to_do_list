@@ -5,8 +5,8 @@ document.addEventListener('keydown', function(txto) {
     }
 })
 function clicou(){
-        var testo = document.getElementById('text').value
-        var tst = document.createTextNode(testo) 
+        var tex = document.getElementById('text').value
+        var tst = document.createTextNode(tex) 
         var ul = document.getElementById('ul')
         var il = document.createElement('li')
         var check = document.createElement('a')

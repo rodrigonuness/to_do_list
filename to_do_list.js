@@ -1,10 +1,10 @@
 document.addEventListener('keydown', function(txto) {
     
     if(txto.key == "Enter"){
-        clicou();
+        put();
     }
 })
-function clicou(){
+function put(){
         var tex = document.getElementById('text').value;
         var tst = document.createTextNode(tex);
         var ul = document.getElementById('ul');
@@ -12,8 +12,7 @@ function clicou(){
         var check = document.createElement('a');
         check.onclick = function () {
             
-            il.parentNode.removeChild('il')
-            check.style.fontSize= "0pt";
+            tst.parentNode.remove();
 
             
         }
@@ -28,7 +27,7 @@ function clicou(){
             
             il.appendChild(tst); 
             ul.appendChild(il);
-            check.innerHTML = "    x";
+            check.innerHTML = "x";
             check.style.color = "red";
             il.appendChild(check);
             var testo = document.getElementById('text').value = "";

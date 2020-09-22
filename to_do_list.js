@@ -12,7 +12,7 @@ function clicou(){
         var check = document.createElement('a');
         check.onclick = function () {
             
-            li.parentNode.removeChild('li')
+            il.parentNode.removeChild('il')
             check.style.fontSize= "0pt";
 
             
@@ -22,7 +22,7 @@ function clicou(){
 
 
     
-        if(testo === ''){
+        if(tex === ''){
             alert("Write a thing!");
         }else{
             

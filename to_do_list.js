@@ -12,14 +12,7 @@ function clicou(){
         var check = document.createElement('a');
         check.onclick = function () {
             
-            il.style.fontSize = "0pt";
-            
-            il.style.width= "0px";
-            il.style.fontSize= "0Pt";
-            il.style.border= "rgba(51, 51, 51, 0) 0px solid";
-            il.style.marginTop= "0";
-            il.style.marginBottom= "0";
-            il.style.marginLeft= "0";
+            li.parentNode.removeChild('li')
             check.style.fontSize= "0pt";
 
             
